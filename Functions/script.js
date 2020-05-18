@@ -138,31 +138,33 @@ function testSize(num) {
 }
 
 //Call
-var result = testSize(5);
-console.log(result);
+//var result = testSize(5);
+//console.log(result);
 //display your answer - console log, alert, pass
 
 //SOLUTION 2
 
-function dantotalScore(a, b, x, y) {
-  var totalScore = a + b + x + y;
-  if (totalScore < 90) {
-    return "Dan you are failed";
-  } else {
-    return "Dan is promoted";
-  }
-}
+// function dantotalScore(a, b, x, y) {
+//   var totalScore = a + b + x + y;
+//   if (totalScore < 90) {
+//     return "Dan you are failed";
+//   } else {
+//     return "Dan is promoted";
+//   }
+// }
 
-var total = dantotalScore(57, 59, 67, 43);
-console.log(total);
+// var total = dantotalScore(57, 59, 67, 43);
+// console.log(total);
 
-function dantotalScore2(a, b, x, y) {
-  var totalScore = a + b + x + y;
-  if (totalScore < 90) {
-    console.log("Dan you are failed");
-  } else {
-    console.log("Dan is promoted");
-  }
-}
+// function dantotalScore2(a, b, x, y) {
+//   var totalScore = a + b + x + y;
+//   if (totalScore < 90) {
+//     console.log("Dan you are failed");
+//   } else {
+//     console.log("Dan is promoted");
+//   }
+// }
 
-dantotalScore(57, 59, 67, 43);
+// dantotalScore(57, 59, 67, 43);
+
+

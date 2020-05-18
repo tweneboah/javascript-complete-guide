@@ -7,7 +7,18 @@
 var numbers = new Array(10, 20, 30, 40);
 
 //2
-var numbers2 = [90, 40, 23];
+var numbers2 = ["Emma", "Ghana", true, 31];
+
+var mySelf = {
+  firstName: "Emma",
+  country: "Ghana",
+  isMarried: true,
+  age: 31,
+  calAge: function () {
+    //logic
+    console.log(this);
+  },
+};
 
 //Accessiong arrays
 //Arrays are zero base
@@ -170,7 +181,7 @@ var enakansahDetails = {
   yearOfBirth: 1983, //Number
   country: "Ghana", //Striing
   isMarried: true, //Boolean
-  bills: [100, 300, 120, 500], //Arrays
+  bills: [100, 300, 120, 500, true, 45.9], //Arrays
   //Function inside object === method
   calculateAge: function () {
     var myAge = 2020 - this.yearOfBirth;
