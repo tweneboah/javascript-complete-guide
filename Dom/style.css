@@ -1,0 +1,13 @@
+.container {
+  background-color: red;
+  padding: 100px;
+  width: 50%;
+  text-align: center;
+}
+
+.score {
+  font-size: 40px;
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

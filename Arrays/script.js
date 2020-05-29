@@ -985,15 +985,50 @@ var result = money.filter(function (data) {
 });
 //console.log(result);
 
-var schoolFees = [
-  { name: "Ben", payedFees: false },
-  { name: "Yeboah", payedFees: false },
-  { name: "Mary", payedFees: true },
-  { name: "Job", payedFees: false },
-];
+// var schoolFees = [
+//   { name: "Ben", payedFees: false },
+//   { name: "Yeboah", payedFees: false },
+//   { name: "Mary", payedFees: true },
+//   { name: "Job", payedFees: false },
+// ];
 
-var notPaidFees = schoolFees.filter(function (std) {
-  return std.payedFees === false;
+// var notPaidFees = schoolFees.filter(function (std) {
+//   return std.payedFees === false;
+// });
+
+// console.log(notPaidFees);
+
+//REVIEW
+
+//Filter all the the post that has an id =99
+
+var filteredPost = posts.filter(function (post) {
+  return post.id === 99;
 });
 
-console.log(notPaidFees);
+//console.log(filteredPost);
+
+//map
+
+// var filteredPost2 = posts.map(function (post) {
+//   console.log(post.body);
+// });
+
+var studentsPromotion = [
+  { name: "Ben", score: 200 },
+  { name: "Yaw", score: 100 },
+  { name: "Joe", score: 250 },
+  { name: "Hans", score: 200 },
+];
+
+var passedStudents = [];
+var failedStudents = [];
+
+var promotedStudents = studentsPromotion.filter(function (student) {
+  if (student.score >= 200) {
+    return passedStudents.push(student);
+  } else if (student.score <= 200) return failedStudents.push(student);
+});
+
+console.log("Passed Students", passedStudents);
+console.log("Failed Students", failedStudents);
