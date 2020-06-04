@@ -1,0 +1,10 @@
+.warning {
+  color: red;
+  font-size: 25px;
+}
+
+.success {
+  color: green;
+  background-color: black;
+  font-size: 30px;
+}

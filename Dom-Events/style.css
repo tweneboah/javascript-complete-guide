@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text {
+  color: white;
+  font-size: 60px;
+  background-color: red;
+  border: 3px solid yellow;
+}
