@@ -17,7 +17,7 @@
 //Dynamically adding css to yout app
 
 // var para = document.querySelector(".paragraph");
-// para.setAttribute("class", "text");
+// para.setAttribute("href", "text");
 // para.styles.color = "red";
 // para.style.color = "white";
 // para.style.fontSize = "30px";

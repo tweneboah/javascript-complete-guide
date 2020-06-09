@@ -1,0 +1,30 @@
+.link {
+  font-size: 2rem;
+  color: blueviolet;
+  background-color: black;
+}
+
+.parent {
+  border: 2px solid red;
+}
+.link2 {
+  font-size: 4rem;
+  color: red;
+  background-color: rgb(3, 68, 14);
+}
+
+.txt1 {
+  font-size: 2rem;
+}
+
+.txt2 {
+  background-color: rgb(207, 64, 21);
+}
+
+.txt3 {
+  padding: 100px;
+}
+
+.txt4 {
+  color: wheat;
+}
