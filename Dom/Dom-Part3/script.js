@@ -4,11 +4,11 @@
 //classList
 //dataset
 //querySelector
-//querySelectorAll
+//querySelectorAll //nodeList 
 //getElementById
 //createTextNode
-//createElement
-//appendChild
+//createElement /h1/p
+//appendChild //placing what have created into the parent
 
 //=====
 //innerHTML

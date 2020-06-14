@@ -1,12 +1,15 @@
 //slection
-var form = document.querySelector("form");
+var myForm = document.querySelector(".my-Form");
 var inpt1 = document.querySelector(".inp1");
-
+var gender = document.querySelector(".gender");
 //get value from a form
 // var inputValue = inpt1.value;
 //add event to the form
 
-form.addEventListener("submit", function (event) {
+myForm.addEventListener("submit", function (event) {
   event.preventDefault();
-  console.log(inpt1.value);
+  // console.log(inpt1.type);
+  console.log(gender.checked);
 });
+
+console.dir(gender);
