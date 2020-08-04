@@ -1,0 +1,19 @@
+
+Added: Recently viewed products to the product page
+
+
+This instruction is only for old versions of the theme.
+
+How to update the theme to version 1.9.1?
+The update is very large. Unable to create update manually.
+
+1. Upload theme version 1.9.1 in your domain
+2. In your old theme version go to Edit code > Config > open file settings_data.json
+3. Select all and copy
+4. Go to admin panel > Themes
+5. In new theme version 1.9.1 go to Edit code > Config > open file settings_data.json
+6. Select all and replace with copied settings_data from old version.
+7. Save file
+8. Transfer your custom javascript, html, css codes in new theme version
+
+Content information will not be lost.
