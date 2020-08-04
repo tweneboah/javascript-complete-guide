@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <!-- Container -->
+  <form action="/my-handling-form-page" method="post" id="register">
+    <!-- The id of the form is use to retrieve that form document.forms['form id'] -->
+    <ul>
+
+      <!--The for label takes the name of it's input id name. This means when you click on the label it will jump to the input  -->
+
+
+      <li>
+        <label for="te">First Name(Text):</label>
+        <input spellcheck="true" maxlength="2" readonly required hidden type="text" id="firstName" name="first-name">
+        <abbr>*</abbr>
+      </li>
+      <li>
+        <label for="age">Age(Number):</label>
+        <input type="number" id="age" name="age">
+      </li>
+
+      <li>
+        <label for="te">check(Radio):</label>
+        <input type="radio" id="yes" name="age" checked><span>yes</span>
+        <input type="radio" id="no" name="age"><span>No</span>
+        <input type="checkbox" name="" id="on"><span>checkbox</span>
+      </li>
+      <!-- SELECT CARD -->
+      <label for="te">Select Card:</label>
+      <select id="card" name="usercard">
+        <option value="visa">Visa</option>
+        <option value="mc">Mastercard</option>
+        <option value="amex">American Express</option>
+      </select>
+
+      <!-- DATE -->
+      <p>
+        <label for="date">
+          <span>Expiration date:</span>
+          <strong><abbr title="required">*</abbr></strong>
+          <em>formatted as mm/dd/yyyy</em>
+        </label>
+        <input type="date" id="date" name="expiration">
+      </p>
+
+      <!-- FILE PICKER -->
+      <label for="Pick file"> Pickfile</label>
+      <input type="file" name="file" id="file" accept="image/*" multiple>
+
+      <!-- Slider -->
+      <input type="range" name="money3" id="money" min="10" max="3000" step="1" value="30"><span>range money</span>
+      <!-- date and Time -->
+      <input type="datetime-local" name="" id="date2"><span>date and time</span>
+      <input type="week" name="" id=""><span>week</span>
+      <!-- Time -->
+      <label for="myDate">When are you available this summer?</label>
+      <input type="date" name="myDate" min="2019-06-01" max="2020-08-31" step="7" id="myDate">
+      <input type="time" name="time" id="time">
+      <!-- Constraining date/time values -->
+
+      <!-- COLOR -->
+      <input type="color" name="color" id="color">
+      <!-- WHEN USING MOBILE -->
+      <!-- <input type="file" accept="image/*;capture=camera">
+      <input type="file" accept="video/*;capture=camcorder">
+      <input type="file" accept="audio/*;capture=microphone"> -->
+      <!-- Phone number -->
+      <!-- <input type="tel" id="tel" name="tel"><span>Phone</span>
+      <input type="tel" id="tel" name="tel"> -->
+      <button type="submit">Submit</button>
+      <!-- Image button -->
+      <input type="image" alt="Click me!" src="./dice-6.png" width="80" height="30">
+  </form>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

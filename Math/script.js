@@ -57,6 +57,7 @@ var m = 5.023333;
 
 //============
 //Math.floor()
+//It doesn't take the decimal values into account
 //============
 
 var z = 5.99999;

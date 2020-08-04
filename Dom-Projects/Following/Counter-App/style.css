@@ -1,0 +1,103 @@
+/* .parent {
+  background-color: cornflowerblue;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(77, 77, 69);
+}
+.container {
+  background-color: rgb(49, 53, 53);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 399px;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 40px;
+  /* box-shadow: 5px 5px 20px red; */
+  box-shadow: 0 4px 8px 0 rgba(168, 71, 71, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-decrease {
+}
+.header-title {
+  align-self: center;
+}
+.btn1 {
+  background-color: black;
+  color: aliceblue;
+}
+.btn2 {
+  background-color: rgb(187, 113, 113);
+  color: aliceblue;
+}
+.btn3 {
+  background-color: rgb(156, 2, 2);
+  color: aliceblue;
+}
+
+.btn4 {
+  background-color: rgb(7, 47, 156);
+  color: aliceblue;
+}
+.title {
+  margin-bottom: 40px;
+  color: rgb(255, 208, 0);
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+button {
+  width: 100px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+.counter {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.resetCounter {
+  color: aliceblue;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.increasedCounter {
+  color: rgb(100, 202, 5);
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.decreasedCounter {
+  color: rgb(233, 10, 29);
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.counter {
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
